@@ -2,10 +2,12 @@ body {
     background-image: url("images/DSCwf.jpg");
     background-repeat: no-repeat;
     background-size: auto 100%;
-    height: 98vh;
+    height: 100vh;
 }
 
-
+#title {
+display: none;
+}
 main {
     background-color: darkgray;
     opacity: .9;
@@ -35,8 +37,9 @@ button {
 }
 
 #inputs {
-    padding: 15px;
+    padding-left: 30px;
 }
+
 #submit{
     display: none;
 }
@@ -45,12 +48,12 @@ button {
     font-size: 20px;
 }
 #task {
-    width: 300px;
+    width: 350px;
     height: 20px;
     border: none;
     background-color: darkgray;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 .fa-times-circle {
@@ -69,12 +72,12 @@ button {
     
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 30px 1fr;
+    grid-template-columns: 50px 300px;
     width: 300px;
       margin: auto;
       height: 30px;
-      padding: 20px ;
-      border-radius: 5px;
+      padding: 25px ;
+      
   }
 
   #remove {
@@ -84,7 +87,7 @@ button {
 
   #chore {
     text-align: left;
-
+    border-bottom: 1px solid rgb(112, 108, 108);
 }
 
 
@@ -92,7 +95,7 @@ button {
 @media only screen and (min-width: 600px){
 
 main {
-    width: 400px;
+    width: 350px;
     right: 0;
 }
 
@@ -100,6 +103,15 @@ main {
     position: fixed;
     bottom: 20px;
     right: 0;
+    width: 350px;
 }
-
+#title {
+    display: grid;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    font-size: 33px;
+    color: wheat;
+      
+    }
 }

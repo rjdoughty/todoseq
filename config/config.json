@@ -4,7 +4,7 @@
     "password": "qy64707gr9kb2ywy",
     "database": "bq06mribozkybbr5",
     "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": 8889,
+    "port": 3306,
     "dialect": "mysql"
   },
   "test": {
